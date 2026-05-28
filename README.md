@@ -4,9 +4,9 @@ A collection of my data engineering and data science projects, showcasing my abi
 
 ## 📁 Repository Structure
 
+*   **`README.md`** — This documentation file outlining the repository overview.
 *   **`macros.sas`** — A library of production-grade SAS macros built to automate single factor analysis, variable transformation, optimal binning, and modelling process.
 *   **`titanic.py`** — A simple illustration for a complete end-to-end machine learning pipeline in Python using the Titanic dataset to predict passenger survival through exploratory data analysis and various ML algorithms.
-*   **`README.md`** — This documentation file outlining the repository overview.
 
 ---
 
@@ -41,7 +41,7 @@ The code provided in this repository is shared strictly for educational and port
     ```bash
     pip install pandas numpy scikit-learn matplotlib seaborn
     ```
-*   *   Download the Titanic data files from [Kaggle](https://www.kaggle.com/c/titanic/data), and change the python script to point to your file.
+*   Download the Titanic data files from [Kaggle](https://www.kaggle.com/c/titanic/data), and change parameters in the python script.
 
 ### Execution
 *   **SAS:** Open `macros.sas` in your SAS environment and submit the code to compile the macros.
