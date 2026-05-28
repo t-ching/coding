@@ -1,6 +1,6 @@
-# My Portfolio
+# Coding Portfolio
 
-A collection of my data engineering and data science projects, showcasing my ability to solve problems across multiple programming languages and ecosystems.
+A collection of my data engineering and data science projects, sharing codes to solve problems across multiple programming languages and ecosystems.
 
 ## 📁 Repository Structure
 
