@@ -33,7 +33,7 @@ app = Flask('IndigoWaitingTime')
 
 @app.route('/', methods=['GET'])
 def greet():
-    return app.send_static_file('CheckWaitingTime.html')
+    return render_template('CheckWaitingTime.html')
 
 @app.route('/show_waiting_time',methods=['POST'])
 def show_waiting_time():
@@ -86,3 +86,6 @@ def show_waiting_time():
     final_waiting_time = max(0.0, final_waiting_time)
 
     return render_template('WaitingTime.html', waittime=round(final_waiting_time, 2))
+
+if __name__ == '__main__':
+    app.run(debug=True)
